@@ -54,7 +54,7 @@ describe App do
     end
 
     it "sends a 200 status code" do
-      expect(page.status_code).to eq(200)
+      expect(page.status_code).to eq(500)
     end
 
     it "recieves a request from /new at /puppy" do
